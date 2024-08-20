@@ -71,3 +71,37 @@ console.log(bar); // 10
 const gg = ['23', 34];
 const [ num1, num2 ] = gg;
 console.log(num2); // 34
+
+//Funciones
+
+//Función sin parametros ni retorno
+
+function saludo(){
+    console.log("Holaaaaaaaa mundo:D")
+}
+
+saludo();
+
+//Función sin parametros con retorno
+
+function suma(){
+    return 2 + 3
+}
+console.log(suma)
+
+//Función con parametros sin retorno
+
+a=2
+b=4
+function resta(a,b){
+    return a-b
+}
+
+//Función con parametros con retorno
+
+a=3
+b=5
+function div(a,b){
+    return a/b
+}
+console.log(div)
