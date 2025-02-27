@@ -1,0 +1,58 @@
+#caja {
+    background-color: rgb(241, 206, 250);
+    font-size: 1.5vw;
+}
+
+#caja2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5vw;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(241, 206, 250);
+    font-size: 1.5vw;
+}
+
+.caja3 {
+    margin-top: 6vw;
+    text-align: center;
+    width: 42vw;
+    height: auto;
+    background: white;
+}
+
+.cajita3 {
+    display: none;
+    opacity: 0;
+    height: 0;
+    transition: opacity 0.5s, height 0.5s;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+input[type="checkbox"]:checked + label + .cajita3 {
+    display: block;
+}
+
+h1 {
+    margin-left: 3vw;
+}
+
+#input {
+    width: 60vw;
+    height: 3.5vw;
+    border: none;
+    border-radius: 1.2vw;
+    font-size: 1.2vw;
+    outline: none;
+    box-sizing: border-box;
+    padding-left: 1vw;
+    margin-top: 3vw;
+    margin-left: 19vw;
+}
+
+.filtro {
+    display: none;
+}

@@ -1,0 +1,65 @@
+#contenedor{
+    width: 51vw;
+    height: auto;
+    background: rgb(228, 194, 221);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 0.5vw;
+}
+#contenedor2{
+    width: 51vw;
+    height: auto;
+    background: rgb(228, 194, 221);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 0.5vw;
+}
+#contenedor3{
+    width: 51vw;
+    height: auto;
+    background: rgb(228, 194, 221);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 0.5vw;
+}
+input{
+    text-align: center;
+    height: 1.3vw;
+}
+#produ{
+    font-size: 1.5vw;
+    color: black;
+}
+#orden1{
+    background: white;
+    color: black;
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 1vw;
+
+}
+#orden1:hover{
+    background-color: rgb(188, 228, 215);
+}
+#prov{
+    background: white;
+    color: black;
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 1vw;
+}
+#prov:hover{
+    background-color: rgb(188, 228, 215);
+}
+#keyToDelete{
+    width: 50.6vw;
+}
+button{
+    text-align: center;
+    width: 11vw;
+    background: rgb(210, 228, 210);
+    margin: auto;
+}

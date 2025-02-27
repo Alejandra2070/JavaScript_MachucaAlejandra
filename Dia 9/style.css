@@ -1,0 +1,98 @@
+@font-face {
+    font-family: letra;
+    src: url(https://fonts.gstatic.com/s/oxanium/v19/RrQQboN_4yJ0JmiMe2LE0Q.woff2) format('woff2');
+}
+
+#contenedor{
+    background: linear-gradient(#6eb9f5,#ebf5fd);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height:100vh;
+}
+
+#imagen{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    margin-left: 14vw;
+    margin-top: 2vw;
+}
+
+#boton{
+    position: relative;
+    text-align: center;
+    font-size: 1.3vw;
+    margin-left: -15.6em;
+    margin-top: 12em;
+    width: 16vw;
+    height: 2.5vw;
+    box-shadow: -3px 5px rgb(125, 124, 124);
+    border-radius: 0.5vw;
+    font-family: letra;
+}
+
+#next{
+    position: relative;
+    font-size: 1.3vw;
+    width: 7vw;
+    height: 3vw;
+    left: -7vw;
+    top: 12vw;
+    background: rgb(76, 76, 76);
+    box-shadow: -2px 3px 0 #222, -4px 6px #000;
+    border-radius: 0.5vw;
+    color: white;
+    font-family: letra;
+}
+#next:active{
+    box-shadow: inset -4px 4px 0 black;
+}
+
+#prev{
+    position: relative;
+    font-size: 1.3vw;
+    width: 7vw;
+    height: 3vw;
+    left: -23vw;
+    top: 12vw;
+    background: rgb(76, 76, 76);
+    box-shadow: -2px 3px 0 #222, -4px 6px #000;
+    border-radius: 0.5vw;
+    color: white;
+    font-family: letra;
+}
+
+#prev:active{
+    box-shadow: inset -4px 4px 0 black;
+}
+
+#output{
+    text-align: center;
+    margin-left: 15vw;
+}
+
+#output img{
+    position: relative;
+    top: -27vw;
+    left: -6.8vw;
+    width: 8vw;
+    height: 7vw;
+}
+
+#output h3{
+    font-size: 1.2vw;
+    margin-top: -25vw;
+    margin-left: -4vw;
+    font-family: letra;
+}
+
+#output p{
+    margin-top: -2.7vw;
+    margin-left: -14vw;
+    font-family: letra;
+    font-size: 1.2vw;
+    color: gray;
+}

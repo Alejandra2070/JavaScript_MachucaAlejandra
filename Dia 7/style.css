@@ -1,0 +1,48 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: white;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#heroesId{
+    text-align: center;
+    background-color: rgb(214, 250, 223);
+    font-size: 2vw;
+    border-color: white;
+}
+
+#boton{
+    font-size: 2vw;
+    margin-top: 3vw;
+}
+
+#boton:hover{
+    background-color: #f8f9fa
+}
+
+#heroesId:focus{
+    border-color: #1a8251;
+    outline: none;
+}
+
+#contenedor{
+    text-align: center;
+    background: #f4d9d9;
+}
+
+#datos{
+    color: black;
+}

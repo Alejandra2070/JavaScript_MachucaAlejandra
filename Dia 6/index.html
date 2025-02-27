@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="contenedor">
+        <h1 id="produ">¡¡Productos!!</h1>
+        <h3 id="agg">---Agregar productos---</h3>
+        <input type="text" id="id1" placeholder="Id"></input>
+        <input type="text" id="nombre1" placeholder="Nombre"></input>
+        <input type="text" id="categoria1" placeholder="Categoría"></input>
+        <input type="text" id="precio1" placeholder="Precio"></input>
+        <input type="text" id="cantidad1" placeholder="Cantidad"></input>
+        <input type="text" id="idProv1" placeholder="Id proveedor"></input>
+        <button type="submit" id="button1">Añadir</button>
+        <div id="output7"></div>
+        <h3>---Actualizar productos---</h3>
+        <input type="text" id="filtrar" placeholder="Ingresa el id a filtrar">
+        <button id="button2">Buscar Id</button>
+        <input type="text" id="actualizarPro" placeholder="Ingresa el nuevo precio" style="display: none;">
+        <button id="buttonActualizar" style="display: none;">Actualizar</button>
+        <div id="output4"></div>
+        <h3>---Eliminar productos---</h3>
+        <input type="text" id="idProDelete" placeholder="Ingresa el id del producto que deseas eliminar "></input>
+        <button id="button3">Eliminar</button>
+        <h3>---Ver productos---</h3>
+        <button id="button4">Ver</button>
+        <div id="output"></div>
+        <h2 id="ver">---Ver otras opciones---</h2>
+        <br>
+        <a id="orden1" href="#contenedor2">Ordenes</a>
+        <a id="prov" href="#contenedor3">Proveedores</a>
+    </div>
+    <br>
+    <div id="contenedor2">
+        <h1 id="produ">¡¡Ordenes!!</h1>
+        <h3>---Actualizar ordenes---</h3>
+        <input type="text" id="idOrder" placeholder="Ingresa el id a filtrar">
+        <button id="button5">Buscar</button>
+        <input type="text" id="actualizarOrd" placeholder="Ingresa el nuevo precio" style="display: none;">
+        <button id="buttonActualizarOrd" style="display: none;">Actualizar</button>
+        <div id="output5"></div>
+        <h3>---Eliminar ordenes---</h3>
+        <input type="text" id="idDeleteOrder" placeholder="Ingresa el id de la orden">
+        <button id="button6">Eliminar</button>
+        <h3>---Ver ordenes---</h3>
+        <button id="button7">Ver</button>
+        <div id="output2"></div>
+        <h2 id="ver">---Ver otras opciones---</h2>
+        <br>
+        <a id="orden1" href="#contenedor">Productos</a>
+        <a id="prov" href="#contenedor3">Proveedores</a>
+    </div>
+    <br>
+    <div id="contenedor3">
+        <h1 id="produ">¡¡Proveedores!!</h1>
+        <h3>---Agregar proveedores---</h3>
+        <input type="text" id="idDos1" placeholder="Id del proveedor"></input>
+        <input type="text" id="name1" placeholder="Nombre"></input>
+        <input type="text" id="phone1" placeholder="Número de teléfono"></input>
+        <input type="text" id="email1" placeholder="Email"></input>
+        <input type="text" id="address1" placeholder="Dirección"></input>
+        <button id="button8">Agregar</button>
+        <h3>---Actualizar proveedores---</h3>
+        <input type="text" id="idActProv" placeholder="Id del proveedor">
+        <button id="button9">Buscar</button>
+        <input type="text" id="actualizarProv" placeholder="Ingresa la nueva dirección" style="display: none;">
+        <button id="buttonActuProv" style="display: none;">Actualizar</button>
+        <div id="output9"></div>
+        <h3>---Eliminar proveedores---</h3>
+        <input type="text" id="idDeleteProv" placeholder="Ingresa el id">
+        <button id="button10">Eliminar</button>
+        <h3>---Ver proveedores---</h3>
+        <button id="button11">Ver</button>
+        <div id="output3"></div>
+        <h2 id="ver">---Ver otras opciones---</h2>
+        <br>
+        <a id="orden1" href="#contenedor">Productos</a>
+        <a id="prov" href="#contenedor2">Ordenes</a>
+    </div>
+</body>
+<script src="./script.js"></script>
+</html>

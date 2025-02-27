@@ -1,0 +1,23 @@
+[
+    {
+        "grupo": "t1",
+        "campers": [
+            {
+                "id": 1,
+                "fecha": "2024-08-15",
+                "usuario": "1",
+                "contrasena": "luisC",
+                "nombre": "Luis",
+                "apellido": "Caicedo",
+                "direccion": "Calle 6 # 55C-42",
+                "acudiente": "Pedro Caicedo",
+                "numero_celular": 3243293371,
+                "numero_fijo": "6015689286",
+                "estado": "Inscrito",
+                "riesgo": "Bajo",
+                "grupo": "t1",
+                "actividad1": "desarrollo del proyecto Python"
+            }
+        ]
+    }
+]
